@@ -38,12 +38,13 @@ SECRET_KEY =  env('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['1284-211-22-74-209.ngrok.io']
 
 
 # Application definition
 
 INSTALLED_APPS = [
+    'han_stock_bot.apps.HanStockBotConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -136,3 +137,7 @@ STATIC_URL = '/static/'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+LINE_CHANNEL_ACCESS_TOKEN = env('LINE_CHANNEL_ACCESS_TOKEN')
+
+LINE_CHANNEL_SECRET = env('LINE_CHANNEL_SECRET')
