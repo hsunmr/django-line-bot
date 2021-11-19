@@ -2,7 +2,7 @@
 股價即時回報聊天機器人
 
 ## DEMO
-<img src="imgs/demo.png" alt="qr_code">
+<img src="imgs/demo.png" alt="demo">
 
 1 ) 加入好友
 - [@037wgnlv](https://page.line.me/?accountId=037wgnlv)
@@ -27,4 +27,9 @@ LINE_CHANNEL_SECRET='line channel secret'
 3 ) run app
 ```
 python manage.py runserver
+```
+
+如果要重新抓上市櫃股票請用
+```
+python crawling_stock.py
 ```
