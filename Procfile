@@ -1,1 +1,1 @@
-web: gunicorn python_ics_generator.wsgi
+web: gunicorn django_line_bot.wsgi
