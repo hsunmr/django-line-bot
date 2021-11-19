@@ -2,7 +2,7 @@
 股價即時回報聊天機器人
 
 ## DEMO
-<img src="imgs/demo.png" alt="qr_code" width="300">
+<img src="imgs/demo.png" alt="qr_code">
 
 1 ) 加入好友
 - [@037wgnlv](https://page.line.me/?accountId=037wgnlv)
